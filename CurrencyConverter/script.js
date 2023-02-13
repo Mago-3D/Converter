@@ -62,10 +62,8 @@ async function getExchangeRate(baseCurrency, targetCurrency) {
     const data = await response.json();
     return data.rates[targetCurrency];
   } catch (error) {
-    console.error(error);
     return error;
   }
-  console.log(data.rates[targetCurrency])
 }
 
 //For Fun =)
