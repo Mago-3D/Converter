@@ -99,6 +99,9 @@ h1 {
   height: 30px;
   font-size: 12px;
 }
+button {
+  border: none;
+}
 
 .clicked {
   background-color: #2267ad;
